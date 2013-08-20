@@ -1,5 +1,5 @@
 ## Example
-```
+```javascript
 var conf = {username: "USERNAME", 
             privateKey: "PATH_TO_PRIVATE_KEY",
             bash: ['uptime',
