@@ -1,5 +1,5 @@
 ## Example
-`
+```
 var conf = {username: "USERNAME", 
             privateKey: "PATH_TO_PRIVATE_KEY",
             bash: ['uptime',
@@ -10,7 +10,7 @@ se(conf, function(err) {
   if (err) throw err;
   console.log("Test success");
 })
-`
+```
 
 ## Config parameters
 
