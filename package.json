@@ -1,0 +1,15 @@
+{
+  "name": "sshexe",
+  "version": "0.0.1",
+  "author": "Aunalytics",
+  "description": "Simple wrapper to execute remote commands.",
+  "private": true,
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "sshexe.js",
+  "dependencies": {
+    "ssh2": "*",
+    "async": "*"
+  }
+}
