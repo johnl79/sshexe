@@ -35,6 +35,7 @@ function sshexe(conf, cb) {
 
       stream.on('close', function() {
         console.log('Stream :: close');
+        console.log('########################################');
       });
 
       stream.on('exit', function(code, signal) {
