@@ -26,8 +26,10 @@ function sshexe(conf, cb) {
       if (err) throw err;
 
       stream.on('data', function(data, extended) {
-        console.log((extended === 'stderr' ? 'STDERR: ' : 'STDOUT: ')
-                    + data);
+        console.log(extended);
+        console.log(data);
+        //console.log((extended === 'stderr' ? 'STDERR: ' : 'STDOUT: ')
+        //            + data);
       });
 
       stream.on('end', function() {
